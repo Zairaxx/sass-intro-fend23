@@ -1,0 +1,23 @@
+@mixin border($borderColor) {
+  border: 2px solid $borderColor;
+  padding: 8px;
+  margin: 8px;
+}
+
+@mixin mobile() {
+  @media (max-width: 1080px) {
+    @content;
+  }
+}
+
+// * {
+//     //Vanlig mixin
+//   @include border(red);
+
+//   // Mixin med @content
+//   @include mobile {
+//     font-size:34px;
+//     color:red;
+//   }
+
+// }

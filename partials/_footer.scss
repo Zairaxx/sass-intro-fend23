@@ -1,0 +1,14 @@
+footer {
+  min-height: 150px;
+  background: darkslategrey;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 16px;
+  a {
+    color: white;
+    font-size: $mediumText;
+    &:hover {
+      color: red;
+    }
+  }
+}

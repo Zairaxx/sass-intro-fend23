@@ -1,0 +1,18 @@
+header {
+  background: black;
+  color: #ddd;
+  h1 {
+    font-size: $bigText;
+    background: black;
+    color: $myColor;
+    @include border($myColor);
+  }
+  h2 {
+    font-size: $mediumText;
+    @include border(green);
+  }
+  h3 {
+    font-size: 32px;
+    @include border(red);
+  }
+}
